@@ -1,4 +1,0 @@
-[Error] SyntaxError: Unexpected token '.'
-	(anonymous function) (transformicons_sn.js:18)
-> campos
-< ReferenceError: Can't find variable: campos

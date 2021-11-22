@@ -1,1 +1,0 @@
-WIFI:T:WPA;S:mynetwork;P:mypass;;
