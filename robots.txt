@@ -1,0 +1,6 @@
+
+Sitemap: https://www.webstudiomallorca.com/sitemap.xml
+User-agent: *
+Disallow: /database/
+Disallow: /scripts/
+

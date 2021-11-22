@@ -1,0 +1,24 @@
+Options All -Indexes
+ErrorDocument 404 /errores/error_404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /jjs/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(jjs)$ index.html?url=$1 [QSA,L]
+</IfModule>
+
+# DIRECTIVAS DE EXPIRACION
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType text/css "access plus 1 seconds"
+	ExpiresByType image/gif "access plus 1 seconds"
+	ExpiresByType image/png "access plus 1 seconds"
+	ExpiresByType image/jpeg "access plus 1 seconds"
+	ExpiresByType application/x-javascript "access plus 1 seconds"
+	ExpiresByType application/javascript "access plus 1 minute"
+	ExpiresByType application/x-icon "access plus 1 seconds"
+	ExpiresDefault "access plus 1 seconds"
+</IfModule>
+# FIN DIRECTIVAS EXPIRACION

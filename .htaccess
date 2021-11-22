@@ -1,0 +1,39 @@
+Options All -Indexes
+ErrorDocument 404 /errores/error_404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /jjs/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(jjs)$ index.html?url=$1 [QSA,L]
+</IfModule>
+
+# DIRECTIVAS DE EXPIRACION
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType text/css "access plus 1 seconds"
+	ExpiresByType image/gif "access plus 1 seconds"
+	ExpiresByType image/png "access plus 1 seconds"
+	ExpiresByType image/jpeg "access plus 1 seconds"
+	ExpiresByType application/x-javascript "access plus 1 seconds"
+	ExpiresByType application/javascript "access plus 1 minute"
+	ExpiresByType application/x-icon "access plus 1 seconds"
+	ExpiresDefault "access plus 1 seconds"
+</IfModule>
+# FIN DIRECTIVAS EXPIRACION
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^webstudiomallorca\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.webstudiomallorca\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^index\.html$ "https\:\/\/webstudiomallorca\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^webstudiomallorca\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.webstudiomallorca\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^queHacemos\.html$ "https\:\/\/webstudiomallorca\.com\/dise\Ã\±o\-web\.html" [R=301,L]
+# Commented by SiteGround automated systems #AddHandler application/x-httpd-php71 .php .php5 .php4 .php3

@@ -1,0 +1,232 @@
+html, body{
+	margin:0px;
+	padding: 0px;
+    height: 100%;
+    
+}
+
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+h1{
+    font-size: 18px;
+}
+h4{
+    font-size: 14px;
+    font-weight: 300;
+}
+.contenedor{
+    height: 100%;
+    margin-top: -240px;
+}
+.textogabnchgoi{
+    padding-bottom: 60px;
+}
+.textogabnchgoi h2{
+    font-size: 23px;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+.textogabnchgoi p{
+    font-size: 18px;
+    margin-bottom: 70px;
+    line-height: 14px;
+}
+.textogabnchgoi .fa{
+    font-size: 35px;
+    color: #ea4f53;
+}
+.idioamasinica li{
+      margin: 0 10px;
+}
+.clicable{
+    cursor: pointer!important;
+}
+.categori_notas{
+text-align: center;
+    display: block;
+    color: #330000;
+    font-style: italic;
+}
+.mainhead{
+    background-color: black;
+    padding: 19px 0px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    background-position: center;
+    text-align: center;
+
+    min-height: 160px;
+
+}
+.mainhead img{
+    text-align: center;
+}
+.categori_rest{
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    background: whitesmoke;
+    padding: 14px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #a75f09;
+    border-bottom: 1px solid silver;
+}
+.categori_resttitle{
+ text-align: center;
+    font-size: 18px;
+    display: block;
+    background: #553c11;
+    padding: 14px 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    border-bottom: 1px solid silver;
+}
+.categori_resttitle span{
+    color:#ff7373;
+}
+.cat_item{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.cat_item li{
+	border-bottom: 1px dotted silver;
+	padding: 10px 0px;
+}
+.cat_item li:last-child{
+    border-bottom: 0px dotted silver;
+}
+.precio{
+    color: #585858;
+    float: right;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nombre_palto{
+    font-weight: 500;
+    text-transform: initial;
+    color: #505050;
+}
+.desc_palto{
+	color: #797979;
+}
+.aler-0{
+    display: none;
+}
+.aler-1, .aler-2, .aler-3, .aler-4, .aler-5, .aler-6, .aler-7, .aler-8, .aler-9, .aler-10, .aler-11, .aler-12, .aler-13, .aler-14{
+    height: 23px;
+    width: 23px;
+    display: inline-block;
+    color: #ff000000;
+}
+
+
+.aler-1{
+    /*gluten*/
+    background-image: url(../img/alergenos/gluten.png);
+}
+.aler-2{
+    /*crustaceos*/
+    background-image: url(../img/alergenos/crustaceos.png);
+}
+.aler-3{
+    /*huevos*/
+    background-image: url(../img/alergenos/huevos.png);
+}
+.aler-4{
+    /*perscado*/
+    background-image: url(../img/alergenos/perscado.png);
+}
+.aler-5{
+    /*cacahuetes*/
+    background-image: url(../img/alergenos/cacahuetes.png);
+}
+.aler-6{
+    /*soja*/
+    background-image: url(../img/alergenos/soja.png);
+}
+.aler-7{
+    /*lacteos*/
+    background-image: url(../img/alergenos/lacteos.png);
+}
+.aler-8{
+    /*frutosdecascaca*/
+    background-image: url(../img/alergenos/frutosdecascaca.png);
+}
+.aler-9{
+    /*apio*/
+    background-image: url(../img/alergenos/apio.png);
+}
+.aler-10{
+    /*mostaza*/
+    background-image: url(../img/alergenos/mostaza.png);
+}
+.aler-11{
+    /*ganosdesesamo*/
+    background-image: url(../img/alergenos/ganosdesesamo.png);
+}
+.aler-12{
+    /*sulfitos*/
+    background-image: url(../img/alergenos/sulfitos.png);
+}
+.aler-13{
+    /*moluscos*/
+    background-image: url(../img/alergenos/moluscos.png);
+}
+.aler-14{
+    /*altramuces*/
+    background-image: url(../img/alergenos/altramuces.png);
+}
+.botonidio a{
+text-transform: uppercase;
+    background: #ea4f53;
+    border: 0px;
+    font-size: 30px;
+    color: bisque;
+    text-shadow: 1px 1px 2px #00000059;
+}
+.alerg_diari{
+    float: right;
+}
+.footerdelr{
+        position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    border-top: 1px solid silver;
+    background: whitesmoke;
+    padding: 10px 0px;
+
+}
+footer ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+footer .fa{
+    padding: 10px 15px;
+    background: #330000;
+    margin: 10px;
+    border-radius: 27px;
+    color: white;
+}
+footer .fa-mobile{
+   background:#8134af;
+}
+footer .fa-facebook{
+    background:#3b5998;
+}
+footer .fa-instagram{
+   background:#DD2A7B;
+    padding: 10px 12px;
+}
+footer ul li{
+    display: inline-block;
+}

@@ -1,0 +1,287 @@
+/* MOVIL */
+
+
+@media screen and (max-width:600px){
+	.que_hacemos_por_ti_contenido{
+		justify-content: space-around;
+		flex: 0 1 calc(100% - 1rem);
+		
+	}
+
+	.imagenes_inicio h3{
+		font-size: 1.4rem;
+	}
+}
+
+
+
+@media (max-width:838px) and (orientation: landscape){
+	.header-contenido{
+		font-size:9px;
+		top:160PX;
+	}
+  }
+
+
+@media screen and (max-width:414px){
+
+	.debajo_cta H1 {
+		font-size: 1.4rem;
+		
+	}
+
+	.tablink H4 {
+		font-size: 1.5rem;
+		margin-top: -13px;
+		
+	}
+
+
+	.parrafo_cta p{
+		font-size:1rem;
+		line-height: 22px;
+	}
+
+	p{
+		font-size:1rem;
+	}
+
+	h1 {
+		font-size:1.3rem;
+	}
+
+	h2 {
+		font-size:1.2rem;
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		margin:15px 0px;
+	}
+
+	.cuadro_amarillo h1{
+
+		font-size: 40px;
+
+	}
+
+	.call_to_action_footer h2{
+
+		font-size: 40px;
+		
+	}
+
+	.tut{
+		margin-bottom: 0px;
+	}
+
+
+	.flecha_botton .material-icons{
+		position: absolute;
+		bottom: 10vh;
+		width: 100%;
+		text-align: center;
+		color: white;
+		font-size: 80px;
+	}
+
+	.header .barra .navegacion ul{
+		flex-direction: column;
+		justify-content: space-around;
+ 	}
+	
+
+	.contenedor {
+	  max-width: 100%;
+	  margin: 0 auto;
+	  
+    }
+
+    .header-contenido{
+		top: 300px;	
+		font-size:10px;
+	}
+    
+
+	
+	.logo{
+		width: 180px;
+		padding-top: 5px;
+	}
+	
+	.barra{
+		padding: 0px 0px;
+		max-height: 80px;
+	}
+	
+	.logos_cta{
+		padding: 0px;
+		margin:0px;
+	}
+
+	.logos_cta li img {
+		max-width: 50%;
+		height: auto;
+	}
+	.titulo_debajo_cta{
+		margin-top:20px;
+	}
+	.debajo_cta{
+		padding: 0px 0px;
+	}
+
+	.imagenes_inicio{
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		padding-left: 10px;
+	}
+	.imagenes_trabajos {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		margin: 0;
+		padding:0;
+	}
+	.texto_footer_izq{
+		padding: 5px;
+	}
+	.direccion{
+		font-style: normal;
+		justify-content: flex-end;
+		color:black;
+	}
+
+	.copyright{
+		z-index: 99;
+	}
+	.equipo_fotos1 li{
+		margin-left: 0;
+	}
+
+	.equipo_fotos2 li {
+		padding-left:2px;
+		margin-left: 1px;
+	}
+	
+
+	.tarifa_bloque{
+		margin:10px;
+	}
+	.imagenes_trabajos img{
+		margin-left: 20px;
+		width:90%;
+	}
+	.overlay {
+	  left: 20px;
+	  width: calc(90% - 0px); 
+	  bottom: 2em;
+	}
+	.container:hover .overlay {
+  		height: calc(100% - 2em);
+  		width: calc(90% - 0em);
+	}
+	.imagenes_trabajos img{
+		padding-left: 0px;
+	}
+	h3.titulo_trabajos{
+		margin-left: 20px;
+	}
+	.formulario_inicio button {
+		margin-bottom: -35px;
+	}
+	#logo{
+		width:18px;
+		margin-left:-5px
+	}
+	#logo2.open{
+		display: inline;
+		margin-left:-4px
+}
+
+
+	#logo_footer{
+		width: 40px;
+		height: 40px;
+	}
+	.menu_footer {
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+		margin-top:0px;
+		text-align: center;
+	}
+
+	.logo_footer h1{
+		width:130px;
+	}
+
+	
+	.cabecera_titulo_grande2{
+	text-align: center;
+	margin-bottom: -5px;
+	margin-top: -10px;
+}
+
+.texto_propuestas p{
+	padding:0px;
+}
+
+	.copyright p{
+		margin-left:0px;	
+	}
+
+	
+	.logo_texto_subir img{
+		width:40px;
+	}
+
+	.logo_texto_subir {
+		margin-top: 40px;
+	
+	}
+
+	.imagenes_inicio h3{
+		font-size: 1.9rem;
+	}
+	
+	
+	.logo_footer{
+		margin: 0;
+		margin-right:-40px;
+	}
+	
+	 .logo-whatsapp{
+	 width:50px;
+	 height: 70px;
+	 position: fixed;
+	 bottom: 30px;
+	 right: 40px;
+	 display:flex;
+	 align-content: flex-end;
+	 z-index:99;
+	 }
+
+	 .value_container{
+	
+		font-size:10px;
+		
+	}
+	 
+	
+
+}
+
+@media (max-width:320px){
+	.header-contenido{
+		font-size:7px;
+		top:150PX;
+	}
+
+	.texto_propuestas_iconos{
+		padding: 0px;
+	}
+	.logo_texto_subir{	
+		font-size:12px;
+	}
+  }

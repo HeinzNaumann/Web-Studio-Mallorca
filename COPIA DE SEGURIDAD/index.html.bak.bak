@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Last-Modified" content="0">
+	<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="js.js"></script>
+	<link type="text/css" href="style.css" rel="stylesheet">
+	<link type="text/css" href="transformicons.css" rel="stylesheet">
+	<title> Web studio mallorca </title>
+</head>
+<body>
+	
+	<div class="contenedor">
+		<div class="cta-imagen"><a class="ascensor" href="#"></a>
+			<a class="boton_presu" href="contacto.html">SOLICITAR PRESUPUESTO</a>
+			<a class="flecha_botton" href="#"><i class="material-icons"> keyboard_arrow_down</i></a>
+				<header class="header">
+					<div class="barra">
+							<div class="logo">
+						        <a href="index.html"> <h1>Web studi <img id="logo" src="imagenes/Logo.png" width="20px"> mallorca</h1></a>
+							</div>    
+							<nav class="navegacion">
+								<div class="menu">
+							        <ul>
+							        	<li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+							        	<li><a href="servicios.html">Servicios</a></li>
+							        	<li><a href="contacto.php">Contacto</a></li>
+							        	<li><a href="tel:+34684106108">684-106-108</a></li>
+							        </ul>
+								</div>	
+						    
+							    <div class="transformicon">
+										<button type="button" class="tcon toggle-menu tcon-menu--xbutterfly" aria-label="toggle menu">
+										<span class="tcon-menu__lines" aria-hidden="true"></span>
+										<span class="tcon-visuallyhidden">toggle menu</span>
+										</button>
+								</div>
+							</nav>
+					</div>
+			       <div class="header-contenido">
+				       <div class="contenedor">
+					       <h2 class="titulo_cta">Diseñadores y 
+					       desarrolladres web </h2>
+					       <div class="parrafo_cta">
+						       <p>Creamos tu página web a medida, si ya dispones de una te la mejoramos para que estes siempre al día.</p>
+						       <button type="button" onclick="location.href='servicios.html'" class="boton">Conócenos</button>
+						       <button type="button" url="#" class="boton_movil"> Contactanos </button>
+					       </div>
+				       </div>
+			       </div>
+			        
+			    </header>   
+	    </div>    <a class="destino" href="#"></a>
+	   
+	    <div class="debajo_cta">
+	    	
+		    <h2 class="titulo_debajo_cta"> DISEÑO WEB - MARKETING DIGITAL - SEO </h2>
+			
+		    <ul class="logos_cta">
+		    	<li>
+			    	<img src="imagenes/Logo_Diseno_web.png" alt="" >
+			    	<h3>Diseño web</h3>
+		    	</li>
+		    	<li>
+			    	<img src="imagenes/Logo_Maquetacion_web.png" alt="">
+			    	<h3 > Maquetación web</h3>
+		    	</li>
+		    	<li>
+			    	<img src="imagenes/Logo_Hosting_Soporte.png"  alt="">
+			    	<h3> Hosting y soporte</h3>
+		    	</li>
+		    	<li>
+			    	<img src="imagenes/Logo_Marquetin_digital.png" alt="">
+			    	<h3>Marquetín digital</h3>
+		    	</li>
+		    	<li>
+			    	<img src="imagenes/Logo_Marquetin_Seo.png" alt="">
+			    	<h3> SEO</h3>
+		    	</li>
+		    </ul>
+		      
+		    <h2 class="cabecera_titulo_grande">QUIENES SOMOS</h2>
+		       
+		    <P class="textos_centrados"> Somos una empresa de <span class="color_amarillo_textos"> diseño de paginas web </span>de Mallorca, agencia de <span class="color_amarillo_textos"> marketing digital </span> y <span class="color_amarillo_textos"> redes sociales </span> en una licuadora súper creativa. Las ofertas de la marca web studio mallorca y los mixólogos de marketing siempre ofrecen diseños únicos del sitio web codificados con las tecnologías modernas de hoy en día, las campañas de redes sociales, las mejoras del <span class="color_amarillo_textos"> SEO </span> y las estrategias de marketing que impulsan los ingresos para los clientes potenciales de ventas y la adquisición de clientes . Echa un vistazo a nuestros últimos trabajos.
+		    </P>
+		     <ul class="imagenes_inicio">
+			     <li>
+			     	 <div class="cierre_imagen">
+					     <img src="imagenes/Marketing_inicio.jpg" alt="">
+					     <H3 class="texto_int_imagenes1">MARKETING</H3>
+				     </div>
+				</li>
+			     <li>
+			    	 <div class="cierre_imagen">
+					     <img src="imagenes/Diseno_inicio.jpg" alt="">
+					     <H3 class="texto_int_imagenes2">DISEÑO</H3>
+				     </div>
+				</li>
+		    	<li>
+		    		<div class="cierre_imagen">
+			    		<img src="imagenes/Seo_inicio.jpg" alt="">
+			    		<H3 class="texto_int_imagenes3">SEO</H3>
+			    	</div>
+			    </li>
+		    	
+		    </ul>
+		    <div class="cuadro_amarillo">
+		    <h2 class="cabecera_titulo_grande_amarillo">NUESTRA FILOSOFÍA</h2>
+		       
+		    <P class="texto_centrados_amarillo"> En Web studio Mallorca nuestra pasión es proporcionar diseños de sitios web innovadores, altamente funcionales, visualmente atractivos y ricos en características, así como los programas de marketing digital que impulsan el crecimiento de tu negocio. Nos aferramos a los más altos estándares de excelencia creativa y técnica. Cada cliente, independientemente del tamaño o alcance del proyecto, puede esperar nada más que los mejores diseños, servicio al cliente y profesionalismo del personal experimentado, dedicado y experto en marketing en web studio mallorca. Contáctenos sin compromiso y estaremos encantados de atenderle.
+		    </P>   
+		    </div>		
+		    <h2 class="cabecera_titulo_grande">ÚLTIMOS TRABAJOS</h2>
+		       
+		    <P class="textos_centrados"> Somos una empresa de <span class="color_amarillo_textos"> diseño de paginas web </span> de Mallorca, agencia de <span class="color_amarillo_textos"> marketing digital </span> y <span class="color_amarillo_textos"> redes sociales </span> en una licuadora súper creativa. Las ofertas de la marca web studio mallorca y los mixólogos de marketing siempre ofrecen diseños únicos del sitio web codificados con las tecnologías modernas de hoy en día, las campañas de redes sociales, las mejoras del <span class="color_amarillo_textos"> SEO </span> y las estrategias de marketing que impulsan los ingresos para los clientes potenciales de ventas y la adquisición de clientes . Echa un vistazo a nuestros últimos trabajos.
+		    </P>     
+		    <ul class="imagenes_trabajos">
+			    <div class="container"
+			    	<li>
+				    	<img src="imagenes/Floristeri%CC%81a_Flower_Power.jpg" alt="">
+				    	<h3 class="titulo_trabajos"><a href="https://flowerpower.es">Flower Power</a></h3>
+						<div class="overlay">
+						<div class="text2"><a href="https://flowerpower.es"><span class="text">Floristería online</span> <br> Flower Power es una tienda online donde se venden flores a domicilio, ademas de disponer de tienda física, visitala.</a></div>	
+						</div>
+			    	</li>
+				</div>
+				
+				  <div class="container"
+			    	<li>
+				    	<img src="imagenes/Fotos_Beltran.jpg" alt="">
+				    	<h3 class="titulo_trabajos"><a href="https://fotosbeltran.com">Fotos Beltrán</a></h3>
+						<div class="overlay">
+							
+						<div class="text2"><a href="https://fotosbeltran.com"><span class="text">Fotos Beltrán</span> <br> Studio y tienda física de fotografía donde se presentan para poder ser contactados y promocionar sus trabajos. </a></div>	
+						</div>
+			    	</li>
+				</div> 	
+		    </ul>
+		    <ul class="imagenes_trabajos">
+			    <div class="container"
+			    	<li>
+				    	<img src="imagenes/respected_sound.jpg" alt="">
+				    	<h3 class="titulo_trabajos"><a href="https://respectedsound.com">Respected Sound</a></h3>
+						<div class="overlay">
+						<div class="text2"><a href="https://respectedsound.com"><span class="text">Promotora de eventos</span> <br> Respected sound es una promotora principalmente de música electronica, a traves de la web promocionan sus eventos y venden entradas.</a></div>	
+						</div>
+			    	</li>
+				</div>
+				  <div class="container"
+			    	<li>
+				    	<img src="imagenes/rte_tamayo.jpg" alt="">
+				    	<h3 class="titulo_trabajos"><a href="https://tacima.com">Tacima </a></h3>
+						<div class="overlay">
+						<div class="text2"><a href="https://tacima.com"><span class="text">Restaurante Mejicano</span> <br> Restaurante Tacima es un restaurante mejicano el cual a traves de la web promociona su negocio ademas de dar soporte para reservas de mesas.</a></div>	
+						</div>
+			    	</li>
+				</div> 	
+		    </ul>
+		    
+		    <h2 class="cabecera_titulo_grande">NUESTRAS TARIFAS</h2>  
+		    <div class="tarifas">
+		     	<div class="tarifa_bloque">
+			     	<h2 class="titulo_lista_precio">Starter</h2>
+			     	<h3 class="precio_lista_precio">300€</h3>
+			     	<h6 class="iva_lista_precio">Precio base con IVA</h6>
+			     	<ul>
+				     	<li>Ideal para empezar</li>
+				     	<li>Implementación de plantilla wordpress</li>
+				     	<li>Configuración de dominio y hosting</li>
+				     	<li>WordPress + Tema propio</li>
+				     	<li>5 Fotografias profesionales para tu proyecto  </li>
+				     	<li>3 horas de formación </li>
+				     	<li>1 mes de mantenimiento</li>
+			     	</ul>
+			     </div>	
+		     	<div class="tarifa_bloque">
+			     	<h2 class="titulo_lista_precio">Business</h2>
+			     	<h3 class="precio_lista_precio">1.000€</h3>
+			     	<h6 class="iva_lista_precio">Precio base con IVA</h6>
+			     	<ul>
+				     	<li>Ideal para empezar con buen pie</li>
+				     	<li>Implementación y diseño </li>
+				     	<li>Configuración de dominio y hosting</li>
+				     	<li>WordPress + Tema propio</li>
+				     	<li>10 Fotografias profesionales para tu proyecto </li>
+				     	<li>8 horas de formación </li>
+				     	<li>3 meses de mantenimiento</li>
+			     	</ul>
+			    </div>	
+		     	<div class="tarifa_bloque">
+			     	<h2 class="titulo_lista_precio">Gold</h2>
+			     	<h3 class="precio_lista_precio">2.500€</h3>
+			     	<h6 class="iva_lista_precio">Precio base con IVA</h6>
+			     	<ul>
+				     	<li>Ideal para empezar con buen pie</li>
+				     	<li>Implementación y diseño personalizado</li>
+				     	<li>Configuración de dominio y hosting</li>
+				     	<li>WordPress + Tema propio</li>
+				     	<li>15 Fotografias profesionales para tu proyecto </li>
+				     	<li>Estrategia de posicionamiento SEO</li>
+				     	<li>16 horas de formación </li>
+				     	<li>3 mes de mantenimiento</li>
+			     	</ul>
+			    </div>	
+		    </div>		
+				     <h2 class="cabecera_titulo_grande">NUESTRO EQUIPO</h2> 
+				     
+				        <ul class="equipo_fotos1">
+					    	<li><span class="dot1"></span>
+					    		<h3> Heinz Naumann</h3>
+					    		<p class="especialidad"> CEO & Director de proyectos</p>
+					    	</li>
+					    	
+					    	<li><span class="dot2"></span>
+						    	<h3> Julia Lysenko</h3>
+						    	<p class="especialidad"> Desarrolladora web & cofundadora</p>
+					    	</li>
+					    </ul>	
+					    <ul class="equipo_fotos2">
+					    	<li><span class="dot3"></span>
+						    	<h3> Ana Mendez</h3>
+						    	<p class="especialidad"> Marketing</p>
+					    	</li>
+					    	<li><span class="dot4"></span>
+						    	<h3> Bill Naumann</h3>
+						    	<p class="especialidad"> Gestor de contenidos</p>
+					    	</li>
+					    	<li><span class="dot5"></span>
+						    	<h3> Manuela Madueño</h3>
+						    	<p class="especialidad"> Fotografia digital</p>
+					    	</li>
+					    	<li><span class="dot6"></span>
+						    	<h3> Mike Schneider</h3>
+						    	<p class="especialidad"> Especialista en SEO</p>
+					    	</li>
+				        </ul>
+				<form class="formulario_inicio">
+			        <h3 class="suscribete"> SUSCRIPCIÓN A NEWSLETTER </h3>
+			        <input type="text" id="nombre" placeholder="Nombre*"></input>
+			        <input type="text" id="apellidos" placeholder="Apellidos*"></input>
+			        <input type="email" id="email" placeholder="Email*"></input>
+			        <button type="submit" value="Enviar">ENVIAR</button>
+			    </form>
+			    
+			    
+			    <footer>
+				    
+				    <div class="footer">
+					    <div class="logos_redes_sociales">
+						    <a><img class="imagenes_logos_redes_sociales" src="imagenes/logo_facebook.png"></a>
+						    <a><img class="imagenes_logos_redes_sociales" src="imagenes/Logo_twitter.png"></a>
+						    <a><img class="imagenes_logos_redes_sociales" src="imagenes/Logo%20Linkedin.png"></a>
+						    <a><img class="imagenes_logos_redes_sociales" src="imagenes/Logo_instragram.png"></a>
+					    </div>
+					    <div class="texto_footer">
+						    <p class="texto_footer_izq">Crear experiencias digitales preparadas para el futuro es lo que hacemos. Cuéntanos sobre tus necesidades, nos encantaría colaborar contigo. <br>
+						    <span><a class="email" href="mailto:info@webstudiomallorca.com">info@webstudiomallorca.com </a> </span></p>
+						   
+						    <address class="direccion"> <h3>Islas Baleares</h3> <span>Avenida Bella Vista</span> <br> Son Moro  <br>  Mallorca, CP 07560 <br> Tel: 684-106-109
+							</address>
+							 <div class="logo_texto_subir">
+							    <a class="prueba" href="#"><img src="imagenes/Logo_subir.png"></a>
+							    <p class="texto_logo_subir"> Volver arriba</p>
+							    
+						    </div>
+							<br>
+						</div>
+					</div>
+						<div class="copyright"> <p>Todos los derechos reservados C 2020 Web Studio Mallorca compañía fundada en 2015. <a> Política de Privacidad </a> </p>
+						</div>
+					
+			    </footer>
+		         
+	    </div>
+	</div>
+	
+	<script type="text/javascript" src="transformicons.js"></script>
+</body>
+</html>
